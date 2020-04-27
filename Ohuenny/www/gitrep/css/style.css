@@ -1,0 +1,39 @@
+
+#point{
+	position:relative;
+	height:10px;
+	width:10px;
+	background-color:black;
+	border-radius:50%;
+	left:50%;
+	z-index:2;
+}
+#center{
+	position:relative;
+	height:10px;
+	width:10px;
+	background-color:black;
+	border-radius:50%;
+	z-index:1;
+	left:200px;
+	top:200px;
+	
+}
+#clockField{
+	poistion:absolute;
+	width:400px;
+	height:400px;
+	border:red solid 2px;
+	margin:auto;
+	padding:0;
+}
+#coords{
+	width:70px;
+	height:15px;
+	border:red solid 1px;
+}
+#centerCoords{
+	width:150px;
+	height:15px;
+	border:red solid 1px;
+}
