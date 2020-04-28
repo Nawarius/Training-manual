@@ -8,9 +8,12 @@ ${isVisible()?`<p> Visible </p>`: ""}
 console.log(template);*/
 
 //Methods
-const str = 'Hello my'
+const str = 'Hello my darling '
 console.log(str.startsWith('He')); // Начинается с "He". Вернет true
 console.log(str.endsWith('lo')); // Коначается на "lo". Вернет true
 console.log(str.includes('llo'));// Спрашивает есть ли такая подстрока в исходной строке. Вернет true
 console.log(str.repeat(3));//Повторяет строку сколько то раз
-str.trim()
+console.log(str.trim());// Убирает пробелы слева и справа
+//trimEnd, trimStart
+console.log(str.padStart(25,1234));//Минимальная длинна строки (Добавляет пробелы в пустые пространства) Второй аргумент способ наполнения пустоты
+console.log(str.padEnd(25,1234));
